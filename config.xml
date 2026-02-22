@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:tizen="http://tizen.org/ns/widgets"
+        id="http://my.tbserver.online/MY.TBSERVER"
+        version="1.0.0"
+        viewmodes="maximized">
+
+  <name>MY.TBSERVER</name>
+
+  <content src="index.html"/>
+  <icon src="icon.png"/>
+
+  <tizen:application id="MYTBSERVERapp"
+                     package="MYTBSERVER"
+                     required_version="3.0"/>
+
+  <tizen:profile name="tv"/>
+
+  <!-- Permisiuni tipice (poți adăuga după nevoie) -->
+  <tizen:privilege name="http://tizen.org/privilege/internet"/>
+</widget>
